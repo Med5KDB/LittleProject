@@ -1,0 +1,30 @@
+#conteneur
+{
+display: flex;
+flex-direction: row;
+justify-content: left;
+flex-wrap: wrap;
+/* border:solid 300px ; */
+
+}
+.element{
+    height: 100px;
+    width: 150px;
+    border-left: dotted 10px #D0D0FF;
+    background-color: #eeeff2;
+    font-family:Tahoma 40px;
+    /* margin-left: 10px; c'est pour l'espacement entre les lettres et le bord de la boite  je ne suis pas sur */
+}
+.element :nth-child(1)
+{
+    
+}
+.element :nth-child(2)
+.element :nth-child(3)
+.element :nth-child(4)
+.element :nth-child(5)
+.element :nth-child(6)
+{
+    
+    
+}

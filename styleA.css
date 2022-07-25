@@ -1,0 +1,58 @@
+#container 
+{
+    border: 2px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap; /*les elements iront en ligne en cas de deficit d'espace du navigateur  et s'utilise pour row cad ligne au lieu de column*/
+    /*align-content:space-between; quand on a plusieurs elements */
+    align-items: center;/*c pour l'axe secondaire cad column; pour row on use justify-content*/
+
+    align-content:space-evenly /*permet de separer de maniere egale*/ center;
+}
+
+.item 
+{
+    width: 100px;
+    height: 100px;
+    border-top: #687291 1px solid;/*la ligne en haut de 1px*/
+    margin: 2vh;/*view height prend 2% de la fenetre lorsqu'on redimensionne ; il y a aussi vw */
+    display: flex;
+    justify-content: center;/* centrer horizontalement*/
+    font-family:Tahoma 40px;
+    
+    
+    
+
+}
+.item:nth-child(1)
+{
+    background-color:#dfe1e7;
+}
+.item:nth-child(2)
+{
+    background-color:#eeeff2;
+}
+.item:nth-child(3)
+{
+    background-color:#dfe1e7;
+}
+.item:nth-child(4)
+{
+    background-color: #eeeff2;
+}
+.item:nth-child(5)
+{
+    background-color:#dfe1e7;
+}
+.item:nth-child(6)
+{
+    background-color: #687291;
+    border:solid black 4px;
+
+    display: flex;/*je peux enlever les lignes 52 et 53 car c deja mis dans .item qui prend en charge tous les elements de A a F */
+    justify-content: center;/* centrer horizontalement*/
+    align-items: center;/*centrer verticalement cad suivant l'axe secondiare*/
+    
+   
+}
+
